@@ -10,9 +10,6 @@ series:
 tags: 'test','rmarkdown'
 categories:
 layout: single
-output:
-  html_document:
-    toc: TRUE
 ---
 
 ```{r setup, include=FALSE}
