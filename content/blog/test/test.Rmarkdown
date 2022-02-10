@@ -24,7 +24,7 @@ best_cohort <- fread('C:/Users/user/mimic/Mimic-iv/bestcare/cohort_v1.csv')
 
 
 ## 1. baseline table
-```{r, include=FALSE}
+```{r, echo=F}
 
 best_cohort %>% 
   select(sex,age,icu_los, apache,crrt,dex_usage, afib_yn,inhos_mortality) %>% 
